@@ -1,0 +1,54 @@
+.overview {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 20vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  height: 85vh;
+}
+
+.overview h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.overview-p {
+  margin: 15px;
+  font-size: 20px;
+  color: #909090;
+}
+
+.overview-buttons {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: calc(3 * 400px + 2 * 30px); 
+}
+
+
+.overview-button {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 7px;
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+.image-name {
+  display: flex;
+  align-items: center;
+}
+
+.image-component {
+  margin-right: 20px;
+}
+
+.image-name > div {
+  display: flex;
+  flex-direction: column;
+}

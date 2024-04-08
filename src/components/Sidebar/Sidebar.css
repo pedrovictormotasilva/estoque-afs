@@ -1,0 +1,58 @@
+.afs-logo {
+  font-size: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  background-color: #086632;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  width: 10%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+}
+
+.logout-button-container {
+  padding-left: 30px;
+  margin-top: auto; 
+  display: flex;
+  align-items: center;
+}
+
+.logout-button {
+  background-color: transparent;
+  color: #FF6F6F;
+  border: none;
+  padding: 10px 20px;
+  
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-left: 10%;
+}
